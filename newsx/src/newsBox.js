@@ -2,7 +2,7 @@
 
 import React from "react";
 import {Link} from "react-router-dom";
-
+import PropTypes from "prop-types";
 
 export const NewsBox = (props) => (
   <div className="newsBox">
@@ -13,4 +13,6 @@ export const NewsBox = (props) => (
   </div>
   );
 
-
+NewsBox.propTypes = {
+  source: PropTypes.object.isRequired,
+}
