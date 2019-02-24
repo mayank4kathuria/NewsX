@@ -8,7 +8,7 @@
 		<li>Go to <a href="https://newsapi.org/"> newsAPI </a></li>
 		<li>Click Get API key and generate your own unique API key</li>
 		<li>copy the generated API key and </li>
-		<li>paste it in <h6>APIKEY variable name value</h6> in ./src/api.js file</li>
+		<li>paste it in <h6>"APIKEY = -paste-your-value-here"</h6> in ./src/api.js file</li>
 		<li>Run the Project and give me feedbacks!</li>
 </p>
 
