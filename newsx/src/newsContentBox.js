@@ -2,6 +2,7 @@
 
 import React from "react";
 import ImageSmooth from "react-smooth-image";
+import PropTypes from "prop-types";
 
 // News Content Box Component, Displays Single news items of news.
 
@@ -27,3 +28,7 @@ const NewsContentBox = (props) => (
 
 
 export default NewsContentBox;
+
+NewsContentBox.propTypes = {
+  news: PropTypes.object.isRequired,
+}
