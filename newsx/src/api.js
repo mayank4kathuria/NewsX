@@ -2,13 +2,13 @@
 
 const URL = "https://newsapi.org/v2/";
 const ENDPOINTS = ["sources","top-headlines"];
-const APIKEY = "979d050dc57b4601a95c6a07a989e26e";
+const APIKEY = "";
 
 
 export const getSources = (succ) => {
   return fetch(`${URL}${ENDPOINTS[0]}?apikey=${APIKEY}`)
   .then(res => res.json())
-  .then(val => succ(val) )
+  .then(val => val.status === "ok" ? succ(val) : [] )
   .catch(err => []);
 
 }
@@ -17,7 +17,7 @@ export const getSources = (succ) => {
 export const getNews = (succ,sourceId) => {
   return fetch(`${URL}${ENDPOINTS[1]}?sources=${sourceId}&apikey=${APIKEY}`)
   .then(res => res.json())
-  .then(val => succ(val.articles) )
+  .then(val => val.status === "ok" ? succ(val.articles) : [] )
   .catch(err => []);
 
 }
