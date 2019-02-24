@@ -26,15 +26,18 @@ class NewsViewer extends React.Component{
   }
 
   render(){
-    const showingNews = this.state.news
+    const showingNews = this.state.news;
     return (
       <div className="container">
         <Link to="/" className="back_button"> Go Back </Link>
-        { showingNews.map(
+        { showingNews.length != 0 ? showingNews.map(
           val => <NewsContentBox news={val} />  )
+          : <p>No News Available from the source</p>
         }
         <div className="footer">
-              <footer> MADE WITH LOVE,SWEAT,HARD WORK AND GOOGLE SEARCHES BY <span>MAYANK KATHURIA</span> </footer>
+              <footer> MADE WITH LOVE,SWEAT,HARD WORK AND GOOGLE SEARCHES BY 
+                <span><a href="https://github.com/mayank4kathuria" target="_blank"> MAYANK KATHURIA</a></span> 
+              </footer>
             </div>
       </div>
       );
