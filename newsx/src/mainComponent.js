@@ -27,7 +27,7 @@ class MainComponent extends React.Component {
         <div className="container">
           { this.state.sources.length != 0 ? this.state.sources.map(
                 (val) => <NewsBox source={val}/> )
-            : <p>No News Available </p>  }
+            : <p>No News Source Available </p>  }
             <div className="footer">
               <footer> MADE WITH LOVE,SWEAT,HARD WORK AND GOOGLE SEARCHES BY 
                 <span><a href="https://github.com/mayank4kathuria" target="_blank"> MAYANK KATHURIA</a></span> 
