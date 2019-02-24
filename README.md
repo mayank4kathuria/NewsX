@@ -8,8 +8,9 @@
 		<li>Go to <a href="https://newsapi.org/"> newsAPI </a></li>
 		<li>Click Get API key and generate your own unique API key</li>
 		<li>copy the generated API key and </li>
-		<li>paste it in <h6>APIKEY variable name value</h6> in ./src/api.js file</li>
+		<li>paste it in <h6>"APIKEY = -paste-your-value-here"</h6> in ./src/api.js file</li>
 		<li>Run the Project and give me feedbacks!</li>
+	</ol>
 </p>
 
 <p>A React Framework based News reading Application which let's you 
@@ -23,6 +24,23 @@ read news from a variety of sources from all around the world.</p>
 	<li> Proves News Brief for selected News</li>
 	<li> Redirects Users to the Full News Article</li> 
 </ul>
+<div style="display: inline">
+<img src="./newsx/screenShorts/news-viewer-bbc-sports.png" alt="Sports News Items BBC" width="300px"/>
+<label>BBC Sports news Screen</label>
+	<hr/>
+<img src="./newsx/screenShorts/news-viewer-bbc-news.png" alt="News Items BBC" width="300px"/>
+<label>BBC news Screen</label>
+	<hr/>
+<img src="./newsx/screenShorts/news-viewer-mobile-view.png" alt="Mobile BBC news" width="300px"/>
+<label>Mobile BBC news Screen</label>
+	<hr/>
+<img src="./newsx/screenShorts/news-viewer-tab-view.png" alt="Tab TOI news" width="300px"/>
+<label>Tab TOI news Screen</label>
+	<hr/>
+<img src="./newsx/screenShorts/news-source-screen.png" alt="News Selection" width="300px"/>
+<label>News Selection Screen</label>
+</div>
+
 
 
 
