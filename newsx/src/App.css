@@ -25,6 +25,7 @@ span{
   margin-right: auto;
   margin-left: auto;
   width: 90%;
+  max-width: 1000px;
   display:flex;
   flex-wrap: wrap;
   flex: 0.5;
@@ -32,19 +33,39 @@ span{
 
 .newsBox{
   margin:5px;
-  width: 200px;
+  width: 22%;
   align-content: center;
   border: 1px solid black;
   border-radius: 10px;
   text-align: center; 
+  box-shadow: 2px 2px #353535;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, .5);
 }
 
 .news-content-box{
   border: 0.5px solid black;
   border-radius: 10px;
-  width: 300px;
-  min-height: 400px;
+  width: 30%;
   margin: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .news-content-box {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .container{
+    justify-content: space-evenly;
+  }
+  .news-content-box {
+    width: 48%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .news-link{
