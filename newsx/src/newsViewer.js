@@ -6,6 +6,7 @@ import NewsContentBox from "./newsContentBox.js";
 import {Link} from "react-router-dom";
 import "./App.css";
 
+// News Viewer Component, Fetches and displays News from Selected Sources
 
 class NewsViewer extends React.Component{
 
