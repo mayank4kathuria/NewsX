@@ -1,12 +1,14 @@
 // A news Content Box
 
 import React from "react";
+import ImageSmooth from "react-smooth-image";
+
 
 const NewsContentBox = (props) => (
   <div className="news-content-box">
     <a href={props.news.url} target="_blank" className="news-link"> 
     <div className="news-image">
-      <img src={props.news.urlToImage} alt="image here" width="300px"/>
+      <ImageSmooth src={props.news.urlToImage} alt="image here"/>
     </div>
     <div className="news-header">
       <h3>{props.news.title}</h3>
