@@ -3,6 +3,7 @@
 import React from "react";
 import ImageSmooth from "react-smooth-image";
 
+// News Content Box Component, Displays Single news items of news.
 
 const NewsContentBox = (props) => (
   <div className="news-content-box">
