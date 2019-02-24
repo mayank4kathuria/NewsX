@@ -25,9 +25,9 @@ class MainComponent extends React.Component {
   render(){
     return (
         <div className="container">
-          { this.state.sources.map(
-              (val) => <NewsBox source={val}/> ) 
-            || <p className="no-news">No News Item is Avaiable</p> }
+          { this.state.sources.length != 0 ? this.state.sources.map(
+                (val) => <NewsBox source={val}/> )
+            : <p>No News Available </p>  }
             <div className="footer">
               <footer> MADE WITH LOVE,SWEAT,HARD WORK AND GOOGLE SEARCHES BY 
                 <span><a href="https://github.com/mayank4kathuria" target="_blank"> MAYANK KATHURIA</a></span> 
@@ -41,3 +41,4 @@ class MainComponent extends React.Component {
 
 
 export default MainComponent;
+
