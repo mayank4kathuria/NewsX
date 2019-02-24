@@ -4,12 +4,15 @@ import React from "react";
 import {getSources} from "./api";
 import {NewsBox} from "./newsBox.js";
 
+
+// Main component of App , Shows News Sources
+
 class MainComponent extends React.Component {
   state = {
     sources: [],
   }
 
-  ss = (val) => {
+  setSources = (val) => {
 
       if( val.sources.length > 0){
         this.setState({
@@ -19,7 +22,7 @@ class MainComponent extends React.Component {
  }
 
   componentDidMount(){
-    getSources(this.ss);
+    getSources(this.setSources);
   }
 
   render(){
