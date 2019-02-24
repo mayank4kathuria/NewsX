@@ -32,7 +32,7 @@ class NewsViewer extends React.Component{
       <div className="container">
         <Link to="/" className="back_button"> Go Back </Link>
         { showingNews.length != 0 ? showingNews.map(
-          val => <NewsContentBox news={val} />  )
+          val => <NewsContentBox key = {val.source.name.toString() }news={val} />  )
           : <p>No News Available from the source</p>
         }
         <div className="footer">
