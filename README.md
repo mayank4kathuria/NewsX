@@ -19,7 +19,7 @@ read news from a variety of sources from all around the world.</p>
 <p>The Features include</p>
 <ul>
 	<li>Select News from World Wide Sources</li>
-	<li> Clear Card based UI</li>
+	<li> Clean Card based UI </li>
 	<li> Provides Daily Top Headlines from your favorate News Source </li>
 	<li> Proves News Brief for selected News</li>
 	<li> Redirects Users to the Full News Article</li> 
