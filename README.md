@@ -13,6 +13,8 @@
 	</ol>
 </p>
 
+Link to Project [![Netlify Status](https://api.netlify.com/api/v1/badges/929222f0-a139-415e-a2e7-dc1893a905aa/deploy-status)](https://app.netlify.com/sites/cranky-carson-b7c61f/deploys)
+
 <p>A React Framework based News reading Application which let's you 
 read news from a variety of sources from all around the world.</p>
 
